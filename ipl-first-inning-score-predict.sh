@@ -26,6 +26,7 @@ then
 	then
 		echo -e "${RED}Repo already exit.${NC}"
 		rm -rf IPL-First-Inning-Score-Predict
+		if [ $? -eq 0 ]
 		then
 			echo -e "${GREEN}Repo Deleted.${NC}"
 			echo -e "${YELLOW}Downloading ${NC}${BROWN}ipl-first-inning-score-predict ${NC}${YELLOW}files....${NC}"
