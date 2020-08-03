@@ -60,7 +60,7 @@ then
 				echo -e "${GREEN}Activated Virtual Environment${NC}"
 
 				#Install All Python Libraris
-				echo "${YELLOW}Starting : ${NC}${CYAN}Install All Dependencies......${NC}"
+				echo -e "${YELLOW}Starting : ${NC}${CYAN}Install All Dependencies......${NC}"
 				pip install -r requirements.txt
 				if [ $? -eq 0 ]
 				then
